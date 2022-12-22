@@ -1,8 +1,5 @@
-const button = document.getElementById('btn');
-var i=0;
-button.addEventListener('click', (btn) => {
-    i=i+1;
-      const count = i;
-
-      btn.currentTarget.innerText = count;
- });
+#btn{
+    width:96px;
+    height:48px;
+    font-size:24px;
+}
